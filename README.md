@@ -85,6 +85,8 @@ Place RESTFullYii into your 'protected/extensions' directory.
 Then, in your main.php config, add this code:
 
 ```php
+Yii::setPathOfAlias('restfully', 'path/to/extensions/restfullyii'); // important if you have custom dirs
+...
 'import' => array(
   'ext.restfullyii.components.*',
 ),

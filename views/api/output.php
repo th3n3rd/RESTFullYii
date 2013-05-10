@@ -1,3 +1,1 @@
-<?php
-  echo CJSON::encode($data);
-?>
+<?php echo CJSON::encode($data);

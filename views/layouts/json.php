@@ -1,5 +1,4 @@
 <?php
-  @header('Content-type: application/json');
-  @header($this->HTTPStatus);
-  echo $content;
-?>
+@header('Content-type: application/json');
+@header($this->HTTPStatus);
+echo $content;
